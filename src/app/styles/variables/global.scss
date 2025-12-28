@@ -1,0 +1,31 @@
+:root {
+    --font-family-primary: 'Inter';
+    --font-family-secondary: 'Manrope';
+
+    --font-size-s: 12px;
+    --font-size-m: 16px;
+    --font-size-l: 20px;
+    --font-size-xl: 26px;
+    --font-size-xxl: 32px;
+
+	--color-text-primary: #e6e9f0;
+	--color-text-secondary: #b3b9c9;
+	--color-text-accent: #6c8cff;
+
+	--color-success: #4ed4a2;
+	--color-warning: #f5c76a;
+	--color-error: #ff6b6b;
+
+	--color-body-bg: radial-gradient(circle,rgba(145, 145, 145, 1) 0%, rgba(82, 82, 82, 1) 100%);
+	--color-app-bg: #9a9a9a;
+
+	--color-card-bg: #161b26;
+
+	/* ===== Hover ===== */
+	--color-hover-text: #8fa3ff;
+	--color-hover-bg: #1e2535;
+
+	/* ===== Borders ===== */
+	--color-border-primary: #2a3142;
+	--color-border-secondary: #343c52;
+}
