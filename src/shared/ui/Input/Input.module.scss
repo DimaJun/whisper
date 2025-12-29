@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.Input {
+  padding: 8px 12px;
+  background-color: var(--color-card-bg);
+  border-radius: 16px;
+
+  transition: opacity var(--transition-duration);
+
+  &:focus {
+    outline: 2px solid var(--color-text-primary);
+  }
+
+  &:hover {
+    opacity: 0.8;
+  }
+}

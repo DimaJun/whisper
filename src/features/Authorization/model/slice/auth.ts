@@ -3,12 +3,12 @@ import { createSlice, PayloadAction } from '@reduxjs/toolkit';
 import { AuthStateSchema } from '@/features/Authorization/model/types/auth';
 
 const initialState: AuthStateSchema = {
-	user: {
-		id: '1',
-		username: 'dima',
-		email: 'dimasik',
-	},
-	access_token: 'sadjw91q9w8j190djk019k3dk1pojd3o0i1u0',
+	// user: {
+	// 	id: '1',
+	// 	username: 'dima',
+	// 	email: 'dimasik',
+	// },
+	// access_token: 'sadjw91q9w8j190djk019k3dk1pojd3o0i1u0',
 };
 
 const authSlice = createSlice({
