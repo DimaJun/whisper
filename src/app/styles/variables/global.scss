@@ -17,13 +17,13 @@
 	--color-error: #ff6b6b;
 
 	--color-body-bg: radial-gradient(circle,rgba(145, 145, 145, 1) 0%, rgba(82, 82, 82, 1) 100%);
-	--color-app-bg: #9a9a9a;
+	--color-app-bg: #393939;
 
 	--color-card-bg: #161b26;
 
 	/* ===== Hover ===== */
-	--color-hover-text: #8fa3ff;
-	--color-hover-bg: #1e2535;
+	--color-hover-text: #ccccd7;
+	--color-hover-bg: rgba(83, 83, 83, 0.87);
 
 	/* ===== Borders ===== */
 	--color-border-primary: #bfbfbf;
@@ -31,4 +31,6 @@
 	/* ===== Section sizes ===== */
 	--header-height: 70px;
 	--sidebar-width: 260px;
+
+	--transition-duration: 0.3s;
 }

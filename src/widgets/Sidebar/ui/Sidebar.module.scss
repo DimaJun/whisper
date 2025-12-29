@@ -1,4 +1,29 @@
 .Sidebar {
   grid-area: sidebar;
   border-right: 2px solid var(--color-border-primary);
+
+  padding: 10px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  padding: 8px 8px 8px 25%;
+  border-radius: 12px;
+  transition: var(--transition-duration);
+
+  font-size: var(--font-size-l);
+
+  &:hover {
+    background-color: var(--color-hover-bg);
+    color: var(--color-text-accent);
+  }
 }
