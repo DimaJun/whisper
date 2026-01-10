@@ -5,6 +5,18 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  .changeForm {
+    margin-top: 10px;
+    background: none;
+    outline: none;
+    padding: 0;
+
+    &:hover {
+      background: none;
+      text-decoration: underline;
+    }
+  }
 }
 
 .form {
@@ -22,16 +34,4 @@
 
 .button {
   margin-top: 12px;
-}
-
-.changeForm {
-  margin-top: 10px;
-  background: none;
-  outline: none;
-  padding: 0;
-
-  &:hover {
-    background: none;
-    text-decoration: underline;
-  }
 }

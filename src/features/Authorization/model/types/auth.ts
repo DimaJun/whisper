@@ -4,3 +4,9 @@ export interface AuthStateSchema {
 	user?: User;
 	access_token?: string;
 }
+
+export interface SignupDTO {
+	email: string;
+	username: string;
+	password: string;
+}
