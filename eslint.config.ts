@@ -6,7 +6,7 @@ import pluginImport from 'eslint-plugin-import';
 import prettierRecommended from 'eslint-plugin-prettier/recommended';
 
 export default [
-	{ ignores: ['dist', 'node_modules', 'eslint.config.ts'] },
+	{ ignores: ['dist', 'node_modules', 'eslint.config.tsx'] },
 	eslint.configs.recommended,
 	...tseslint.configs.recommendedTypeChecked,
 	reactRefresh.configs.flat.recommended,

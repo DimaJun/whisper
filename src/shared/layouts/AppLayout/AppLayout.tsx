@@ -1,3 +1,5 @@
+import { Toaster } from 'react-hot-toast';
+
 import { Header } from '@/widgets/Header';
 import { Sidebar } from '@/widgets/Sidebar';
 import { AppRouter } from '@/app/providers/router';
@@ -14,6 +16,7 @@ export function AppLayout() {
 
 	return (
 		<div className={classNames('app', mods, [])}>
+			<Toaster position='top-right' />
 			<Header />
 			<Sidebar />
 			<div className='content'>

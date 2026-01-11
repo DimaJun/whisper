@@ -12,12 +12,13 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 }
 
 export function Button(props: ButtonProps) {
-	const { className, Icon, onClick, children, ...rest } = props;
+	const { className, Icon, onClick, children, type = 'button', ...rest } = props;
 
 	return (
 		<button
 			className={classNames(s.Button, {}, [className])}
 			onClick={onClick}
+			type={type}
 			{...rest}
 		>
 			{Icon && <Icon className={s.icon} />}

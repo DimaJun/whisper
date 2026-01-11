@@ -7,6 +7,7 @@ import { RegisterFormType, signupSchema } from '../../model/types/schemas';
 import { Input } from '@/shared/ui/Input';
 import { Button } from '@/shared/ui/Button';
 import { useSignupMutation } from '@/features/Authorization/api/auth';
+import { showToast } from '@/shared/lib/toasts';
 
 export function RegisterForm() {
 	const {
@@ -25,6 +26,7 @@ export function RegisterForm() {
 		try {
 			const res = await signup(data).unwrap();
 			console.log(res);
+			showToast.success('Success!');
 			reset();
 		} catch (e) {
 			console.error(e);
